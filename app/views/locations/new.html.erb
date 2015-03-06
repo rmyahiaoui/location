@@ -1,0 +1,30 @@
+
+
+<%= form_for :locate, url: {action: "create"} do |f| %>
+  <p>
+    <%= f.label :adress %><br>
+    <%= f.text_field :adress %>
+  </p>
+
+   <p>
+    <%= f.label :ville %><br>
+    <%= f.text_field :ville %>
+  </p>
+ 
+   <p>
+    <%= f.label :code_postal %><br>
+    <%= f.text_field :code_postal %>
+  </p>
+
+   <p>
+    <%= f.label :pay %><br>
+    <%= f.text_field :pay %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
+ 
