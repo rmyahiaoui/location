@@ -9,11 +9,7 @@ development:
   socket: /var/run/mysqld/mysqld.sock
 production:
   adapter: mysql
-  encoding: latin1
-  reconnect: true
   database: heroku_6bcc44798b96f42
-  pool: 5
-  timeout: 5000
   username: bded8f9224b3ed
   password: 86752475
 test:
