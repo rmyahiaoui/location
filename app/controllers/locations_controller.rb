@@ -3,10 +3,6 @@ class LocationsController < ApplicationController
   def index
     @search = Locate.ransack(params[:q])
     @locates = @search.result.paginate(page: params[:page], per_page: 2)
-    
-
- 
-
   end
 
   def new
@@ -14,19 +10,15 @@ class LocationsController < ApplicationController
   end
 
   def create
-
-  @locate = Locate.new(locate_params)
-  @locate.save
-
-   redirect_to :controller =>'locations', :action => 'show', :id => @locate
+    @locate = Locate.new(locate_params)
+    @locate.save
+    redirect_to :controller =>'locations', :action => 'show', :id => @locate
   end
 
   def update
-  @locate = Locate.find(params[:locate][:id])
-  
-  update = @locate.update(locate_params)
-
-  redirect_to :controller =>'locations', :action => 'show', :id => @locate
+    @locate = Locate.find(params[:locate][:id])
+    update = @locate.update(locate_params)
+    redirect_to :controller =>'locations', :action => 'show', :id => @locate
   end
 
   def show
@@ -41,7 +33,6 @@ class LocationsController < ApplicationController
   def delete
     @locate = Locate.find(params[:id])
     @locate.destroy
- 
     redirect_to :controller =>'locations', :action => 'index'
   end
 
@@ -50,7 +41,5 @@ class LocationsController < ApplicationController
   def locate_params
     params.require(:locate).permit(:id, :adress, :ville, :code_postal, :pay)
   end
-
-
-
+  
 end
