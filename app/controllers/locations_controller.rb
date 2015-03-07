@@ -2,10 +2,8 @@ class LocationsController < ApplicationController
   
   def index
     @locates = Locate.all
-  
-@hash = Gmaps4rails.build_markers(@locates) do |user, marker|
+    
 
-end
  
 
   end

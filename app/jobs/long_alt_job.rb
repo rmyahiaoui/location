@@ -1,7 +1,7 @@
 class LongAltJob < ActiveJob::Base
   queue_as :default
 
-  def perform(*args)
-    # Do something later
+  def perform(locate)
+    Geocoder.coordinates(locate.adress+', '+locate.ville+','+', '+locate.pay)
   end
 end
