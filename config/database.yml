@@ -14,4 +14,18 @@ development:
   username: root
   password: root
   socket: /var/run/mysqld/mysqld.sock
+ production:
+  adapter: postgresql
+  encoding: latin1
+  reconnect: false
+# TODO: Create a helper here, this is totally unreadable.
+# Add git branch name to sesame_dev_<branch> unless <branch>=="master"
+# Thus in branch master the database sesamea_dev is used and in
+# branch robert the database sesamea_dev_robert is used.
+# Obviously this technique is only applied to the development and test
+# environments.
+  database: d1uav96prnbr99
+  pool: 5
+  username: pdlnasaxlpmvbp
+  password: G_Y_J65DgzWW7TcDJC_dnyotd9
 
