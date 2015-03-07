@@ -10,7 +10,7 @@ development:
 production:
   adapter: mysql
   encoding: latin1
-  reconnect: false
+  reconnect: true
   database: heroku_6bcc44798b96f42
   pool: 5
   timeout: 5000
