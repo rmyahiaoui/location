@@ -27,6 +27,9 @@ gem 'gmaps4rails'
 gem 'geocoder'
 gem 'delayed_job_active_record'
 gem 'jquery-rails'
+gem 'will_paginate', '~> 3.0.6'
+gem 'formtastic'
+gem 'ransack'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

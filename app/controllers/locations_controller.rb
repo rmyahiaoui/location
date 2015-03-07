@@ -1,7 +1,8 @@
 class LocationsController < ApplicationController
   
   def index
-    @locates = Locate.all
+    @search = Locate.ransack(params[:q])
+    @locates = @search.result.paginate(page: params[:page], per_page: 2)
     
 
  
@@ -49,5 +50,7 @@ class LocationsController < ApplicationController
   def locate_params
     params.require(:locate).permit(:id, :adress, :ville, :code_postal, :pay)
   end
+
+
 
 end
