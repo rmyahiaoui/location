@@ -15,7 +15,7 @@ development:
   password: root
   socket: /var/run/mysqld/mysqld.sock
  production:
-  adapter: postgresql
+  adapter: mysql
   encoding: latin1
   reconnect: false
 # TODO: Create a helper here, this is totally unreadable.
@@ -24,8 +24,8 @@ development:
 # branch robert the database sesamea_dev_robert is used.
 # Obviously this technique is only applied to the development and test
 # environments.
-  database: d1uav96prnbr99
+  database: heroku_6bcc44798b96f42
   pool: 5
-  username: pdlnasaxlpmvbp
-  password: G_Y_J65DgzWW7TcDJC_dnyotd9
+  username: bded8f9224b3ed
+  password: 86752475
 
