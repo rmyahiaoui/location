@@ -13,7 +13,6 @@ production:
   pool: 5
   username: bded8f9224b3ed
   password: 86752475
-  socket: /var/run/mysqld/mysqld.sock
 test:
   adapter: mysql
   encoding: latin1
