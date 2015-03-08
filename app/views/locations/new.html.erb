@@ -2,37 +2,7 @@
 <h1>new location</h1>
 <div class="form-actions">
   <%= render 'form_new' %>
-<div class="form-actions">
-<%= form_for :locate, url: {action: "create"}, :class => "form-group" do |f| %>
-  <p>
-    <%= f.label :adress %><br>
-    <%= f.text_field :adress %>
-  </p>
-
-   <p>
-    <%= f.label :ville %><br>
-    <%= f.text_field :ville %>
-  </p>
- 
-   <p>
-    <%= f.label :code_postal %><br>
-    <%= f.text_field :code_postal %>
-  </p>
-
-   <p>
-    <%= f.label :pay %><br>
-    <%= f.select(:pay) do %>
-      <% Country.all.each do |c| -%>
-        <%= content_tag(:option, c.first, value: c.first) %>
-      <% end %>
-    <% end %>
-  </p>
-  
-  <p>
-    <%= f.submit %>
-  </p>
-<% end %>
-<div>
+</div>
 
 
 

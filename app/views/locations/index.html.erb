@@ -1,6 +1,3 @@
-<% content_for :title do %>
-      Le titre de la page
-<% end %>
 <% if flash[:notice] %>
   <div class="notice"><%= flash[:notice] %></div>
 <% end %>
@@ -40,19 +37,6 @@
     <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
     <td><%= link_to 'show', :action => 'show', :id => locate.id%><td>
   </tr>
-    <tr>
-    	<td><%= locate.id %></td>
-      <td><%= locate.adress %></td>
-      <td><%= locate.ville %></td>
-      <td><%= locate.code_postal %></td>
-      <td><%= locate.pay %></td>
-      <td><%= locate.latitude %></td>
-      <td><%= locate.longitude %></td>
-      
-      <td><%= link_to 'edit', :action => 'edit', :id => locate.id %><td>
-      <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
-      <td><%= link_to 'show', :action => 'show', :id => locate.id%><td>
-    </tr>
   <% end %>
 </table>
 <%= hidden_field_tag :direction, params[:direction] %>

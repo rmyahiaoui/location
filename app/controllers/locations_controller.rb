@@ -2,7 +2,7 @@ class LocationsController < ApplicationController
   helper_method :sort_column, :sort_direction
 
   def index
-    @locates = Locate.search(params[:search]).order(sort_column + " " + sort_direction).paginate(page: params[:page], per_page: 2)
+    @locates = Locate.search(params[:search]).order(sort_column + " " + sort_direction).paginate(page: params[:page], per_page: 5)
     @hash = Gmaps4rails.build_markers(Locate.all) do |user, marker|
       marker.lat user.latitude
       marker.lng user.longitude
