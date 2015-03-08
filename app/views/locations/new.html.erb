@@ -17,14 +17,21 @@
   </p>
 
    <p>
-    <%= f.label :pay %><br>
-    <%= f.text_field :pay %>
+    
+
   </p>
- 
+  <%= f.label :pay %><br>
+
+<%= f.select(:pay) do %>
+  <% Country.all.each do |c| -%>
+    <%= content_tag(:option, c.first, value: c.first) %>
+  <% end %>
+<% end %>
   <p>
     <%= f.submit %>
   </p>
 <% end %>
+
 
 
  

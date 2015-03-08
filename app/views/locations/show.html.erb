@@ -1,3 +1,6 @@
+ <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
 <h1>Locations#read</h1>
 <p>Find me in app/views/locations/read.html.erb</p>
 <p>
@@ -19,3 +22,18 @@
   <strong>Pay:</strong>
   <%= @locate.pay%>
 </p>
+
+
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
+</div>
+<script type="text/javascript">
+
+      handler = Gmaps.build('Google');
+handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+  markers = markers = handler.addMarkers(<%=raw @hash.to_json %>);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
+
+</script>

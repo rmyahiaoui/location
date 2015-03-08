@@ -3,11 +3,13 @@ Rails.application.routes.draw do
 
   post '/locations/create', to: 'locations#create'
   post '/locations/update', to: 'locations#update'
+  get '/locations/exec_job', to: 'locations#exec_job'
   get '/locations', to: 'locations#index'
   get '/locations/new', to: 'locations#new'
   get '/locations/:id/delete', to: 'locations#delete'
   get '/locations/:id/edit', to: 'locations#edit'
   get '/locations/:id', to: 'locations#show'
+
   
 
 

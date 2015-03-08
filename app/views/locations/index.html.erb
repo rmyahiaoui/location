@@ -1,14 +1,36 @@
+  <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+
+
+
+
+
+
+<%= form_tag  locations_path, :method => 'get',:id => "locations_search" do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+  <div id="locations"><%= render 'locations' %></div>
+<% end %>
+
+
+
+
+
+
 <h1>Liste de locations</h1>
  
 <table>
-  <tr>
-  	<th>id</th>
-    <th>adress</th>
-    <th>ville</th>
-    <th>code_postal</th>
-    <th>pay</th>
-    <th>latitude</th>
-    <th>longitude</th>
+  <tr class='pretty'>
+  	<th><%= sortable "id" %></th>
+    <th><%= sortable "adress" %></th>
+    <th><%= sortable "ville" %></th>
+    <th><%= sortable "code_postal" %></th>
+    <th><%= sortable "pay" %></th>
+    <th><%= sortable "latitude" %></th>
+    <th><%= sortable "longitude" %></th>
   </tr>
  
   <% @locates.each do |locate| %>
@@ -18,21 +40,34 @@
       <td><%= locate.ville %></td>
       <td><%= locate.code_postal %></td>
       <td><%= locate.pay %></td>
-      <td><%= LongAltJob.perform_now(locate)[0]
+      <td><%= locate.latitude %></td>
+      <td><%= locate.longitude
  %></td>
-      <td><%= LongAltJob.perform_now(locate)[1] %></td>
+      
       <td><%= link_to 'edit', :action => 'edit', :id => locate.id %><td>
       <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
     </tr>
   <% end %>
 </table>
+<%= hidden_field_tag :direction, params[:direction] %>
+<%= hidden_field_tag :sort, params[:sort] %>
 <%= will_paginate @locates %>
 
 
+<%= button_to "lancer le job", {:action => 'exec_job'}, :method => :get %>
 
 
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
+</div>
+<script type="text/javascript">
 
+      handler = Gmaps.build('Google');
+handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+  markers = markers = handler.addMarkers(<%=raw @hash.to_json %>);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
 
-
-
+</script>
 
