@@ -45,7 +45,7 @@ h3 {
 }
  
 p {
-    
+    padding-bottom: 22px;
 }
 
 nav {
@@ -162,7 +162,7 @@ h3 {
 }
  
 p {
-   
+    padding-bottom: 22px;
 }
 
 #content {
@@ -171,7 +171,7 @@ p {
  
     #mainContent {
         display: table-cell;
-        width: 100%;
+        width: 620px;
         padding-right: 22px;
     }
  
@@ -180,64 +180,35 @@ p {
         width: 300px;
     }
 
-
+  table {
+border:3px solid #6495ed;
+border-collapse:collapse;
+width:90%;
+margin:auto;
+}
+thead, tfoot {
+background-color:#D0E3FA;
+background-image:url(sky.jpg);
+border:1px solid #6495ed;
+}
+tbody {
+background-color:#FFFFFF;
+border:1px solid #6495ed;
+}
+th {
+font-family:monospace;
+border:1px dotted #6495ed;
+padding:5px;
+background-color:#EFF6FF;
+width:25%;
+}
+td {
+font-family:sans-serif;
+font-size:80%;
+border:1px solid #6495ed;
+padding:5px;
+text-align:left;
+}
 caption {
 font-family:sans-serif;
-}
-.bs-docs-nav {
-    margin-bottom: 0px;
-    background-color: #FFF;
-    border-bottom: 0px none;
-}
-.navbar-static-top {
-    border-radius: 0px;
-}
-.navbar-static-top {
-    z-index: 1000;
-    border-width: 0px 0px 1px;
-}
-.navbar {
-    border-radius: 4px;
-}
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary {
-
-}
-* {
-    box-sizing: border-box;
-}
-.bs-docs-header {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-size: 24px;
-    text-align: left;
-}
-.bs-docs-header {
-    margin-bottom: 40px;
-    font-size: 20px;
-}
-.bs-docs-header, .bs-docs-masthead {
-    position: relative;
-    padding: 30px 15px;
-    text-align: center;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
-    background-repeat: repeat-x;
-    color: #CDBFE3;
-    background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
-    background-color: #6F5499;
-}
-* {
-    box-sizing: border-box;
-}
-#form_group_id{
-	margin-left: 53%;
-	margin-top: 10px;
-	position: absolute;
-
 }

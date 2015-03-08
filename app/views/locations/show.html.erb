@@ -1,8 +1,10 @@
  <% if flash[:notice] %>
     <div class="notice"><%= flash[:notice] %></div>
   <% end %>
-<h1>Locations#read</h1>
-<p>Find me in app/views/locations/read.html.erb</p>
+<h1>Visualiser une location</h1>
+<%= link_to 'edit', :action => 'edit', :id => @locate.id %>
+<%= link_to 'delete', :action => 'delete', :id => @locate.id%>
+<%= link_to 'new', :action => 'new'%>
 <p>
   <strong>Adress:</strong>
   <%= @locate.adress %>
@@ -21,6 +23,16 @@
 <p>
   <strong>Pay:</strong>
   <%= @locate.pay%>
+</p>
+
+<p>
+  <strong>latitude:</strong>
+  <%= @locate.latitude%>
+</p>
+
+<p>
+  <strong>longitude:</strong>
+  <%= @locate.longitude%>
 </p>
 
 <%= button_to "lancer le job", {:action => 'exec_job'}, :method => :get %>
