@@ -1,0 +1,33 @@
+<%= form_for :locate, url: {action: "update"}, :class => "form-group", :class => "form-group" do |f| %>
+  <p>
+    <%= f.label :adress %><br>
+    <%= f.text_field :adress %>
+  </p>
+
+   <p>
+    <%= f.label :ville %><br>
+    <%= f.text_field :ville %>
+  </p>
+ 
+   <p>
+    <%= f.label :code_postal %><br>
+    <%= f.text_field :code_postal %>
+  </p>
+
+  <p>
+    <%= f.label :pay %><br>
+    <%= f.select(:pay) do %>
+      <% Country.all.each do |c| -%>
+        <%= content_tag(:option, c.first, value: c.first) %>
+      <% end %>
+    <% end %>
+  </p>
+
+  <p>
+    <%= f.hidden_field :id %><br>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

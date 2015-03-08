@@ -8,6 +8,10 @@ module LayoutHelper
     @show_title = show_title
   end
 
+  def title(title)
+        content_for(:title) { title }
+  end
+
   def show_title?
     @show_title
   end

@@ -9,6 +9,5 @@ class Locate < ActiveRecord::Base
 	    all
 	  end
 	end
-
-
+	
 end
