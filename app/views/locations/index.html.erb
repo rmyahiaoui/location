@@ -1,11 +1,9 @@
 <% content_for :title do %>
       Le titre de la page
 <% end %>
-
 <% if flash[:notice] %>
   <div class="notice"><%= flash[:notice] %></div>
 <% end %>
-
 <div class ='form-group' id='form_group_id'>
 <%= form_tag  locations_path, :method => 'get',:id => "locations_search" do %>
   <p>
@@ -42,6 +40,19 @@
     <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
     <td><%= link_to 'show', :action => 'show', :id => locate.id%><td>
   </tr>
+    <tr>
+    	<td><%= locate.id %></td>
+      <td><%= locate.adress %></td>
+      <td><%= locate.ville %></td>
+      <td><%= locate.code_postal %></td>
+      <td><%= locate.pay %></td>
+      <td><%= locate.latitude %></td>
+      <td><%= locate.longitude %></td>
+      
+      <td><%= link_to 'edit', :action => 'edit', :id => locate.id %><td>
+      <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
+      <td><%= link_to 'show', :action => 'show', :id => locate.id%><td>
+    </tr>
   <% end %>
 </table>
 <%= hidden_field_tag :direction, params[:direction] %>
@@ -49,7 +60,6 @@
 <%= will_paginate @locates %>
 <%= button_to "lancer le job", {:action => 'exec_job'}, :method => :get %>
 <br><br><br>
-
 <div style='width: 800px;'>
   <div id="map" style='width: 800px; height: 400px;'></div>
 </div>
