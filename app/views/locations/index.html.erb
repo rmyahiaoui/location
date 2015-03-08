@@ -6,14 +6,15 @@
 
 
 
-
+<div class ='form-group' id='form_group_id'>
 <%= form_tag  locations_path, :method => 'get',:id => "locations_search" do %>
   <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", :name => nil %>
+    <%= text_field_tag :search, params[:search], :class => 'text-left' %>
+    <%= submit_tag "Search", :name => nil, :class => 'btn btn-primary ' %>
   </p>
   <div id="locations"><%= render 'locations' %></div>
 <% end %>
+</div>
 
 
 
@@ -22,7 +23,7 @@
 
 <h1>Liste de locations</h1>
  
-<table>
+<table class="table table-bordered table-responsive table-hover">
   <tr class='pretty'>
   	<th><%= sortable "id" %></th>
     <th><%= sortable "adress" %></th>
@@ -41,11 +42,11 @@
       <td><%= locate.code_postal %></td>
       <td><%= locate.pay %></td>
       <td><%= locate.latitude %></td>
-      <td><%= locate.longitude
- %></td>
+      <td><%= locate.longitude %></td>
       
       <td><%= link_to 'edit', :action => 'edit', :id => locate.id %><td>
       <td><%= link_to 'delete', :action => 'delete', :id => locate.id%><td>
+      <td><%= link_to 'show', :action => 'show', :id => locate.id%><td>
     </tr>
   <% end %>
 </table>

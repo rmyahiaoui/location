@@ -60,7 +60,7 @@ class LocationsController < ApplicationController
 
   def exec_job
     locates = Locate.all
-    LongAltJob.perform_now(locates)
+    LongAltJob.perform_now()
     flash[:notice] = "le job a calculer laltitude et longitute de chaque adress"
     redirect_to locations_path
   end

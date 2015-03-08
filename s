@@ -14505,4 +14505,153 @@ NoMethodError: undefined method `name' for ["Andorra", "AD"]:Array
 2.1.1 :006 > c.name
  => "United States" 
 2.1.1 :007 > c.name = Country.find_country_by_name('united states')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')[1P')F')r')a')n')c')e')
- => #<Country:0xe3a8cd0 @data={"continent"=>"North America", "address_format"=>"{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}", "alpha2"=>"US", "alpha3"=>"USA", "country_code"=>"1", "currency"=>"USD", "international_prefix"=>"011", "ioc"=>"USA", "gec"=>"US", "latitude"=>"38 00 N", "longitude"=>"97 00 W", "name"=>"United States", "names"=>["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国", "Verenigde Staten"], "national_destination_code_lengths"=>[3], "national_number_lengths"=>[10], "national_prefix"=>"1", "number"=>"840", "region"=>"Americas", "subregion"=>"Northern America", "world_region"=>"AMER", "un_locode"=>"US", "languages"=>["en"], "nationality"=>"American", "postal_code"=>true, "min_longitude"=>"-179.231086", "min_latitude"=>"17.831509", "max_longitude"=>"-66.885417", "max_latitude"=>"71.441059", "latitude_dec"=>"39.44325637817383", "longitude_dec"=>"-98.95733642578125", "translations"=>{"aa"=>nil, "ab"=>nil, "af"=>"Verenigde State", "ak"=>nil, "sq"=>"Shtetet e Bashkuara", "am"=>"ጐሣሱጢ", "ar"=>"الولايات المتّحدة", "an"=>nil, "hy"=>"Ամէրիկայի Միացյալ Նահանգնէր", "as"=>"মাৰ্কিন যুক্তৰাষ্ট্ৰ", "av"=>nil, "ae"=>nil, "ay"=>nil, "az"=>"Birləşmiş Ştatlar", "ba"=>nil, "bm"=>nil, "eu"=>"Estatu Batuak", "be"=>"Злучаныя Штаты", "bn"=>"মার্কিন যুক্তরাষ্ট্র", "bh"=>nil, "bi"=>nil, "bs"=>"SAD", "br"=>"Stadoù Unanet", "bg"=>"Съединени щати", "my"=>nil, "ca"=>"Estats Units", "ch"=>nil, "ce"=>nil, "zh"=>"美国", "cu"=>nil, "cv"=>nil, "kw"=>nil, "co"=>nil, "cr"=>nil, "cs"=>"Spojené státy", "da"=>"USA", "dv"=>nil, "nl"=>"Verenigde Staten", "dz"=>"ཡུ་ན་ཡེ་ཊེཊི་ སིཊེཊིསི།", "en"=>"United States", "eo"=>"Usono", "et"=>"Ameerika Ühendriigid", "ee"=>nil, "fo"=>"Sambandsríki Amerika", "fj"=>nil, "fi"=>"Yhdysvallat", "fr"=>"États-Unis", "fy"=>nil, "ff"=>nil, "ka"=>"ამერიკის შეერთებული შტატები", "de"=>"Vereinigte Staaten", "gd"=>nil, "ga"=>"Na Stáit Aontaithe", "gl"=>"Estados Unidos de América", "gv"=>nil, "el"=>"Ηνωμένες Πολιτείες", "gn"=>nil, "gu"=>"યુનાઇટેડ સ્ટેટ્સ", "ht"=>nil, "ha"=>nil, "he"=>"ארצות הברית", "hz"=>nil, "hi"=>"संयुक्त राज्य", "ho"=>nil, "hr"=>"Sjedinjene Države", "hu"=>"Egyesült Államok", "ig"=>nil, "is"=>"Bandaríkin", "io"=>nil, "ii"=>nil, "iu"=>nil, "ie"=>nil, "ia"=>"Statos Unite", "id"=>"Amerika Serikat", "ik"=>nil, "it"=>"Stati Uniti", "jv"=>nil, "ja"=>"米国", "kl"=>nil, "kn"=>"ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನಗಳು", "ks"=>nil, "kr"=>nil, "kk"=>"АҚШ", "km"=>"សហរដ្ឋ​អាមេរិក", "ki"=>nil, "rw"=>"Leta Zunze Ubumwe", "ky"=>nil, "kv"=>nil, "kg"=>nil, "ko"=>"미국", "kj"=>nil, "ku"=>"Dewletên Yekbûyî", "lo"=>nil, "la"=>nil, "lv"=>"Amerikas Savienotās Valstis", "li"=>nil, "ln"=>nil, "lt"=>"Jungtinės Amerikos Valstijos", "lb"=>nil, "lu"=>nil, "lg"=>nil, "mk"=>"Соединети држави", "mh"=>nil, "ml"=>"ഐക്യനാടുകള്‍", "mi"=>"Amerika", "mr"=>"युनायटेड स्टेटस्", "ms"=>"Amerika Syarikat", "mg"=>nil, "mt"=>"Stati Uniti", "mo"=>nil, "mn"=>"Америкын нэгдсэн улс", "na"=>nil, "nv"=>nil, "nr"=>nil, "nd"=>nil, "ng"=>nil, "ne"=>"संयुक्त राज्य", "nn"=>"USA; Sambandsstatane", "nb"=>"De forente stater", "no"=>nil, "ny"=>nil, "oc"=>"France", "oj"=>nil, "or"=>"ଯୁକ୍ତରାଷ୍ଟ୍ର", "om"=>nil, "os"=>nil, "pa"=>"ਅਮਰੀਕਾ", "fa"=>"ایالات متحدهٔ آمریکا", "pi"=>nil, "pl"=>"Stany Zjednoczone", "pt"=>"Estados Unidos", "ps"=>"United States", "qu"=>nil, "rm"=>nil, "ro"=>"Statele Unite", "rn"=>nil, "ru"=>"Соединённые штаты", "sg"=>nil, "sa"=>nil, "si"=>"එක්සත් ජනපද", "sk"=>"Spojené štáty", "sl"=>"Združene države", "se"=>nil, "sm"=>nil, "sn"=>nil, "sd"=>nil, "so"=>"Qaramada Midoobey ee Maraykanka", "st"=>nil, "es"=>"Estados Unidos", "sc"=>nil, "sr"=>"Сједињене Државе", "ss"=>nil, "su"=>nil, "sw"=>"United States", "sv"=>"USA", "ty"=>nil, "ta"=>"ஐக்கிய அமெரிக்கா", "tt"=>"Берләшкән Штатлар", "te"=>"యునైటెడ్ స్టేట్స్", "tg"=>nil, "tl"=>"Estados Unidos", "th"=>"สหรัฐ", "bo"=>nil, "ti"=>"አሜሪካ", "to"=>nil, "tn"=>nil, "ts"=>nil, "tk"=>"Birleşen Ştatlar", "tr"=>"Birleşik Devletler", "tw"=>nil, "ug"=>"ئامېرىكا", "uk"=>"США", "ur"=>nil, "uz"=>nil, "ve"=>"United States", "vi"=>"Mỹ", "vo"=>nil, "cy"=>"Yr Unol Daleithiau", "wa"=>"Estats Unis", "wo"=>"Aamerik", "xh"=>"United States ye Melika", "yi"=>nil, "yo"=>nil, "za"=>nil, "zu"=>"United States ye Melika"}, "translated_names"=>["Verenigde State", "Shtetet e Bashkuara", "ጐሣሱጢ", "الولايات المتّحدة", "Ամէրիկայի Միացյալ Նահանգնէր", "মাৰ্কিন যুক্তৰাষ্ট্ৰ", "Birləşmiş Ştatlar", "Estatu Batuak", "Злучаныя Штаты", "মার্কিন যুক্তরাষ্ট্র", "SAD", "Stadoù Unanet", "Съединени щати", "Estats Units", "美国", "Spojené státy", "USA", "Verenigde Staten", "ཡུ་ན་ཡེ་ཊེཊི་ སིཊེཊིསི།", "United States", "Usono", "Ameerika Ühendriigid", "Sambandsríki Amerika", "Yhdysvallat", "États-Unis", "ამერიკის შეერთებული შტატები", "
+ => #<Country:0xe3a8cd0 @data={"continent"=>"North America", "address_format"=>"{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}", "alpha2"=>"US", "alpha3"=>"USA", "country_code"=>"1", "currency"=>"USD", "international_prefix"=>"011", "ioc"=>"USA", "gec"=>"US", "latitude"=>"38 00 N", "longitude"=>"97 00 W", "name"=>"United States", "names"=>["United States of America", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国", "Verenigde Staten"], "national_destination_code_lengths"=>[3], "national_number_lengths"=>[10], "national_prefix"=>"1", "number"=>"840", "region"=>"Americas", "subregion"=>"Northern America", "world_region"=>"AMER", "un_locode"=>"US", "languages"=>["en"], "nationality"=>"American", "postal_code"=>true, "min_longitude"=>"-179.231086", "min_latitude"=>"17.831509", "max_longitude"=>"-66.885417", "max_latitude"=>"71.441059", "latitude_dec"=>"39.44325637817383", "longitude_dec"=>"-98.95733642578125", "translations"=>{"aa"=>nil, "ab"=>nil, "af"=>"Verenigde State", "ak"=>nil, "sq"=>"Shtetet e Bashkuara", "am"=>"ጐሣሱጢ", "ar"=>"الولايات المتّحدة", "an"=>nil, "hy"=>"Ամէրիկայի Միացյալ Նահանգնէր", "as"=>"মাৰ্কিন যুক্তৰাষ্ট্ৰ", "av"=>nil, "ae"=>nil, "ay"=>nil, "az"=>"Birləşmiş Ştatlar", "ba"=>nil, "bm"=>nil, "eu"=>"Estatu Batuak", "be"=>"Злучаныя Штаты", "bn"=>"মার্কিন যুক্তরাষ্ট্র", "bh"=>nil, "bi"=>nil, "bs"=>"SAD", "br"=>"Stadoù Unanet", "bg"=>"Съединени щати", "my"=>nil, "ca"=>"Estats Units", "ch"=>nil, "ce"=>nil, "zh"=>"美国", "cu"=>nil, "cv"=>nil, "kw"=>nil, "co"=>nil, "cr"=>nil, "cs"=>"Spojené státy", "da"=>"USA", "dv"=>nil, "nl"=>"Verenigde Staten", "dz"=>"ཡུ་ན་ཡེ་ཊེཊི་ སིཊེཊིསི།", "en"=>"United States", "eo"=>"Usono", "et"=>"Ameerika Ühendriigid", "ee"=>nil, "fo"=>"Sambandsríki Amerika", "fj"=>nil, "fi"=>"Yhdysvallat", "fr"=>"États-Unis", "fy"=>nil, "ff"=>nil, "ka"=>"ამერიკის შეერთებული შტატები", "de"=>"Vereinigte Staaten", "gd"=>nil, "ga"=>"Na Stáit Aontaithe", "gl"=>"Estados Unidos de América", "gv"=>nil, "el"=>"Ηνωμένες Πολιτείες", "gn"=>nil, "gu"=>"યુનાઇટેડ સ્ટેટ્સ", "ht"=>nil, "ha"=>nil, "he"=>"ארצות הברית", "hz"=>nil, "hi"=>"संयुक्त राज्य", "ho"=>nil, "hr"=>"Sjedinjene Države", "hu"=>"Egyesült Államok", "ig"=>nil, "is"=>"Bandaríkin", "io"=>nil, "ii"=>nil, "iu"=>nil, "ie"=>nil, "ia"=>"Statos Unite", "id"=>"Amerika Serikat", "ik"=>nil, "it"=>"Stati Uniti", "jv"=>nil, "ja"=>"米国", "kl"=>nil, "kn"=>"ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನಗಳು", "ks"=>nil, "kr"=>nil, "kk"=>"АҚШ", "km"=>"សហរដ្ឋ​អាមេរិក", "ki"=>nil, "rw"=>"Leta Zunze Ubumwe", "ky"=>nil, "kv"=>nil, "kg"=>nil, "ko"=>"미국", "kj"=>nil, "ku"=>"Dewletên Yekbûyî", "lo"=>nil, "la"=>nil, "lv"=>"Amerikas Savienotās Valstis", "li"=>nil, "ln"=>nil, "lt"=>"Jungtinės Amerikos Valstijos", "lb"=>nil, "lu"=>nil, "lg"=>nil, "mk"=>"Соединети држави", "mh"=>nil, "ml"=>"ഐക്യനാടുകള്‍", "mi"=>"Amerika", "mr"=>"युनायटेड स्टेटस्", "ms"=>"Amerika Syarikat", "mg"=>nil, "mt"=>"Stati Uniti", "mo"=>nil, "mn"=>"Америкын нэгдсэн улс", "na"=>nil, "nv"=>nil, "nr"=>nil, "nd"=>nil, "ng"=>nil, "ne"=>"संयुक्त राज्य", "nn"=>"USA; Sambandsstatane", "nb"=>"De forente stater", "no"=>nil, "ny"=>nil, "oc"=>"France", "oj"=>nil, "or"=>"ଯୁକ୍ତରାଷ୍ଟ୍ର", "om"=>nil, "os"=>nil, "pa"=>"ਅਮਰੀਕਾ", "fa"=>"ایالات متحدهٔ آمریکا", "pi"=>nil, "pl"=>"Stany Zjednoczone", "pt"=>"Estados Unidos", "ps"=>"United States", "qu"=>nil, "rm"=>nil, "ro"=>"Statele Unite", "rn"=>nil, "ru"=>"Соединённые штаты", "sg"=>nil, "sa"=>nil, "si"=>"එක්සත් ජනපද", "sk"=>"Spojené štáty", "sl"=>"Združene države", "se"=>nil, "sm"=>nil, "sn"=>nil, "sd"=>nil, "so"=>"Qaramada Midoobey ee Maraykanka", "st"=>nil, "es"=>"Estados Unidos", "sc"=>nil, "sr"=>"Сједињене Државе", "ss"=>nil, "su"=>nil, "sw"=>"United States", "sv"=>"USA", "ty"=>nil, "ta"=>"ஐக்கிய அமெரிக்கா", "tt"=>"Берләшкән Штатлар", "te"=>"యునైటెడ్ స్టేట్స్", "tg"=>nil, "tl"=>"Estados Unidos", "th"=>"สหรัฐ", "bo"=>nil, "ti"=>"አሜሪካ", "to"=>nil, "tn"=>nil, "ts"=>nil, "tk"=>"Birleşen Ştatlar", "tr"=>"Birleşik Devletler", "tw"=>nil, "ug"=>"ئامېرىكا", "uk"=>"США", "ur"=>nil, "uz"=>nil, "ve"=>"United States", "vi"=>"Mỹ", "vo"=>nil, "cy"=>"Yr Unol Daleithiau", "wa"=>"Estats Unis", "wo"=>"Aamerik", "xh"=>"United States ye Melika", "yi"=>nil, "yo"=>nil, "za"=>nil, "zu"=>"United States ye Melika"}, "translated_names"=>["Verenigde State", "Shtetet e Bashkuara", "ጐሣሱጢ", "الولايات المتّحدة", "Ամէրիկայի Միացյալ Նահանգնէր", "মাৰ্কিন যুক্তৰাষ্ট্ৰ", "Birləşmiş Ştatlar", "Estatu Batuak", "Злучаныя Штаты", "মার্কিন যুক্তরাষ্ট্র", "SAD", "Stadoù Unanet", "Съединени щати", "Estats Units", "美国", "Spojené státy", "USA", "Verenigde Staten", "ཡུ་ན་ཡེ་ཊེཊི་ སིཊེཊིསི།", "United States", "Usono", "Ameerika Ühendriigid", "Sambandsríki Amerika", "Yhdysvallat", "États-Unis", "ამერიკის შეერთებული შტატები", "Vereinigte Staaten", "Na Stáit Aontaithe", "Estados Unidos de América", "Ηνωμένες Πολιτείες", "યુનાઇટેડ સ્ટેટ્સ", "ארצות הברית", "संयुक्त राज्य", "Sjedinjene Države", "Egyesült Államok", "Bandaríkin", "Statos Unite", "Amerika Serikat", "Stati Uniti", "米国", "ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನಗಳು", "АҚШ", "សហរដ្ឋ​អាមេរិក", "Leta Zunze Ubumwe", "미국", "Dewletên Yekbûyî", "Amerikas Savienotās Valstis", "Jungtinės Amerikos Valstijos", "Соединети држави", "ഐക്യനാടുകള്‍", "Amerika", "युनायटेड स्टेटस्", "Amerika Syarikat", "Stati Uniti", "Америкын нэгдсэн улс", "संयुक्त राज्य", "USA; Sambandsstatane", "De forente stater", "France", "ଯୁକ୍ତରାଷ୍ଟ୍ର", "ਅਮਰੀਕਾ", "ایالات متحدهٔ آمریکا", "Stany Zjednoczone", "Estados Unidos", "United States", "Statele Unite", "Соединённые штаты", "එක්සත් ජනපද", "Spojené štáty", "Združene države", "Qaramada Midoobey ee Maraykanka", "Estados Unidos", "Сједињене Државе", "United States", "USA", "ஐக்கிய அமெரிக்கா", "Берләшкән Штатлар", "యునైటెడ్ స్టేట్స్", "Estados Unidos", "สหรัฐ", "አሜሪካ", "Birleşen Ştatlar", "Birleşik Devletler", "ئامېرىكا", "США", "United States", "Mỹ", "Yr Unol Daleithiau", "Estats Unis", "Aamerik", "United States ye Melika", "United States ye Melika"]}> 
+2.1.1 :008 > c = Country.find_country_by_name('France')[C[C[C[C[C[C[C[C[C[C[C[C[C[C.name[K
+ => "United States" 
+2.1.1 :009 > exit
+]0;redouane@redouane-Presario-CQ61-Notebook-PC: ~/ror/locationredouane@redouane-Presario-CQ61-Notebook-PC:~/ror/location$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'app/assets/javascripts/location.js' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+]0;redouane@redouane-Presario-CQ61-Notebook-PC: ~/ror/locationredouane@redouane-Presario-CQ61-Notebook-PC:~/ror/location$ git add .[K--all
+]0;redouane@redouane-Presario-CQ61-Notebook-PC: ~/ror/locationredouane@redouane-Presario-CQ61-Notebook-PC:~/ror/location$ git commit -m ''a'd'd'[1P'[1P'[1P'c'r'e'a't'e' 'r's'[1P'[1P't'e's't' 'u'n'i't'
+[master f501ea8] create test unit
+ 39 files changed, 14972 insertions(+), 12695 deletions(-)
+ create mode 100644 .rspec
+ create mode 100644 app/assets/images/up_arrow.png
+ delete mode 100644 app/assets/javascripts/location.js
+ delete mode 100644 app/assets/stylesheets/location.scss
+ create mode 100644 app/assets/stylesheets/locations.css
+ delete mode 100644 app/assets/stylesheets/locations.scss
+ rewrite app/jobs/long_alt_job.rb (60%)
+ create mode 100644 app/views/locations/_locations.html.erb
+ create mode 100644 app/views/locations/index.js.erb
+ delete mode 100644 public/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css
+ delete mode 100644 public/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css.gz
+ delete mode 100644 public/assets/application-d5a5189cce2c2b4a28bd8cb6b0b55f45.js
+ delete mode 100644 public/assets/application-d5a5189cce2c2b4a28bd8cb6b0b55f45.js.gz
+ create mode 100644 public/assets/images/.keep
+ create mode 100644 public/assets/images/down_arrow.png
+ create mode 100644 public/assets/images/up_arrow.png
+ delete mode 100644 public/assets/manifest-10110b6d4213461757d6dd41396d346e.json
+ create mode 100644 public/images/.keep
+ create mode 100644 public/images/down_arrow.png
+ create mode 100644 public/images/up_arrow.png
+ create mode 100644 s
+ create mode 100644 spec/controllers/locations_controller_spec.rb
+ create mode 100644 spec/factories.rb
+ create mode 100644 spec/models/locate_spec.rb
+ create mode 100644 spec/rails_helper.rb
+ create mode 100644 spec/spec_helper.rb
+]0;redouane@redouane-Presario-CQ61-Notebook-PC: ~/ror/locationredouane@redouane-Presario-CQ61-Notebook-PC:~/ror/location$ git push origin master
+Username for 'https://github.com': rmyahiaoui
+Password for 'https://rmyahiaoui@github.com': 
+Counting objects: 78, done.
+Compressing objects:   2% (1/42)   Compressing objects:   4% (2/42)   Compressing objects:   7% (3/42)   Compressing objects:   9% (4/42)   Compressing objects:  11% (5/42)   Compressing objects:  14% (6/42)   Compressing objects:  16% (7/42)   Compressing objects:  19% (8/42)   Compressing objects:  21% (9/42)   Compressing objects:  23% (10/42)   Compressing objects:  26% (11/42)   Compressing objects:  28% (12/42)   Compressing objects:  30% (13/42)   Compressing objects:  33% (14/42)   Compressing objects:  35% (15/42)   Compressing objects:  38% (16/42)   Compressing objects:  40% (17/42)   Compressing objects:  42% (18/42)   Compressing objects:  45% (19/42)   Compressing objects:  47% (20/42)   Compressing objects:  50% (21/42)   Compressing objects:  52% (22/42)   Compressing objects:  54% (23/42)   Compressing objects:  57% (24/42)   Compressing objects:  59% (25/42)   Compressing objects:  61% (26/42)   Compressing objects:  64% (27/42)   Compressing objects:  66% (28/42)   Compressing objects:  69% (29/42)   Compressing objects:  71% (30/42)   Compressing objects:  73% (31/42)   Compressing objects:  76% (32/42)   Compressing objects:  78% (33/42)   Compressing objects:  80% (34/42)   Compressing objects:  83% (35/42)   Compressing objects:  85% (36/42)   Compressing objects:  88% (37/42)   Compressing objects:  90% (38/42)   Compressing objects:  92% (39/42)   Compressing objects:  95% (40/42)   Compressing objects:  97% (41/42)   Compressing objects: 100% (42/42)   Compressing objects: 100% (42/42), done.
+Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  21% (10/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  34% (16/47)   Writing objects:  36% (17/47)   Writing objects:  38% (18/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  46% (22/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  57% (27/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47)   Writing objects:  72% (34/47)   Writing objects:  74% (35/47)   Writing objects:  76% (36/47)   Writing objects:  78% (37/47)   Writing objects:  80% (38/47)   Writing objects:  82% (39/47)   Writing objects:  85% (40/47)   Writing objects:  87% (41/47)   Writing objects:  89% (42/47)   Writing objects:  91% (43/47)   Writing objects:  93% (44/47)   Writing objects:  95% (45/47)   Writing objects:  97% (46/47)   Writing objects: 100% (47/47)   Writing objects: 100% (47/47), 86.92 KiB | 0 bytes/s, done.
+Total 47 (delta 14), reused 0 (delta 0)
+To https://github.com/rmyahiaoui/location.git
+   1dc0e5a..f501ea8  master -> master
+]0;redouane@redouane-Presario-CQ61-Notebook-PC: ~/ror/locationredouane@redouane-Presario-CQ61-Notebook-PC:~/ror/location$ r[Kgit push origin master[C[1P master[1P master[1P master[1P master[1P master[1P masterh mastere masterr mastero masterk masteru master
+Counting objects: 78, done.
+Compressing objects:   2% (1/42)   Compressing objects:   4% (2/42)   Compressing objects:   7% (3/42)   Compressing objects:   9% (4/42)   Compressing objects:  11% (5/42)   Compressing objects:  14% (6/42)   Compressing objects:  16% (7/42)   Compressing objects:  19% (8/42)   Compressing objects:  21% (9/42)   Compressing objects:  23% (10/42)   Compressing objects:  26% (11/42)   Compressing objects:  28% (12/42)   Compressing objects:  30% (13/42)   Compressing objects:  33% (14/42)   Compressing objects:  35% (15/42)   Compressing objects:  38% (16/42)   Compressing objects:  40% (17/42)   Compressing objects:  42% (18/42)   Compressing objects:  45% (19/42)   Compressing objects:  47% (20/42)   Compressing objects:  50% (21/42)   Compressing objects:  52% (22/42)   Compressing objects:  54% (23/42)   Compressing objects:  57% (24/42)   Compressing objects:  59% (25/42)   Compressing objects:  61% (26/42)   Compressing objects:  64% (27/42)   Compressing objects:  66% (28/42)   Compressing objects:  69% (29/42)   Compressing objects:  71% (30/42)   Compressing objects:  73% (31/42)   Compressing objects:  76% (32/42)   Compressing objects:  78% (33/42)   Compressing objects:  80% (34/42)   Compressing objects:  83% (35/42)   Compressing objects:  85% (36/42)   Compressing objects:  88% (37/42)   Compressing objects:  90% (38/42)   Compressing objects:  92% (39/42)   Compressing objects:  95% (40/42)   Compressing objects:  97% (41/42)   Compressing objects: 100% (42/42)   Compressing objects: 100% (42/42), done.
+Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  21% (10/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  34% (16/47)   Writing objects:  36% (17/47)   Writing objects:  38% (18/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  46% (22/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  57% (27/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47)   Writing objects:  72% (34/47)   Writing objects:  74% (35/47)   Writing objects:  76% (36/47)   Writing objects:  78% (37/47)   Writing objects:  80% (38/47)   Writing objects:  82% (39/47)   Writing objects:  85% (40/47)   Writing objects:  87% (41/47)   Writing objects:  89% (42/47)   Writing objects:  91% (43/47)   Writing objects:  93% (44/47)   Writing objects:  95% (45/47)   Writing objects:  97% (46/47)   Writing objects: 100% (47/47)   Writing objects: 100% (47/47), 86.92 KiB | 0 bytes/s, done.
+Total 47 (delta 14), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> Ruby app detected[K
+remote: -----> Compiling Ruby/Rails[K
+remote: -----> Using Ruby version: ruby-2.0.0[K
+remote: -----> Installing dependencies using 1.7.12[K
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment[K
+remote:        Fetching gem metadata from https://rubygems.org/........[K
+remote:        Fetching additional metadata from https://rubygems.org/..[K
+remote:        Using json 1.8.2[K
+remote:        Using minitest 5.5.1[K
+remote:        Using thread_safe 0.3.4[K
+remote:        Using builder 3.2.2[K
+remote:        Using erubis 2.7.0[K
+remote:        Using rake 10.4.2[K
+remote:        Using mini_portile 0.6.2[K
+remote:        Using i18n 0.7.0[K
+remote:        Using rack 1.6.0[K
+remote:        Using mime-types 2.4.3[K
+remote:        Using arel 6.0.0[K
+remote:        Using execjs 2.4.0[K
+remote:        Using coffee-script-source 1.9.1[K
+remote:        Using thor 0.19.1[K
+remote:        Using geocoder 1.2.7[K
+remote:        Using gmaps4rails 2.1.2[K
+remote:        Using hike 1.2.3[K
+remote:        Using multi_json 1.11.0[K
+remote:        Using mysql 2.9.1[K
+remote:        Using bundler 1.7.12[K
+remote:        Using tilt 1.4.1[K
+remote:        Using sass 3.4.13[K
+remote:        Using will_paginate 3.0.7[K
+remote:        Using rdoc 4.2.0[K
+remote:        Using tzinfo 1.2.2[K
+remote:        Using nokogiri 1.6.6.2[K
+remote:        Using rack-test 0.6.3[K
+remote:        Using mail 2.6.3[K
+remote:        Using uglifier 2.7.1[K
+remote:        Using coffee-script 2.3.0[K
+remote:        Using sprockets 2.12.3[K
+remote:        Using sdoc 0.4.1[K
+remote:        Using activesupport 4.2.0[K
+remote:        Using loofah 2.0.1[K
+remote:        Using rails-deprecated_sanitizer 1.0.3[K
+remote:        Using globalid 0.3.3[K
+remote:        Using activemodel 4.2.0[K
+remote:        Using delayed_job 4.0.6[K
+remote:        Using jbuilder 2.2.10[K
+remote:        Using rails-html-sanitizer 1.0.1[K
+remote:        Using rails-dom-testing 1.0.5[K
+remote:        Using activejob 4.2.0[K
+remote:        Using activerecord 4.2.0[K
+remote:        Using actionview 4.2.0[K
+remote:        Using delayed_job_active_record 4.0.3[K
+remote:        Using actionpack 4.2.0[K
+remote:        Using actionmailer 4.2.0[K
+remote:        Using railties 4.2.0[K
+remote:        Using formtastic 3.1.3[K
+remote:        Using sprockets-rails 2.2.4[K
+remote:        Using coffee-rails 4.1.0[K
+remote:        Using jquery-rails 4.0.3[K
+remote:        Using rails 4.2.0[K
+remote:        Using sass-rails 5.0.1[K
+remote:        Using turbolinks 2.5.3[K
+remote:        Installing currencies 0.4.2[K
+remote:        Installing i18n_data 0.6.0[K
+remote:        Installing countries 0.11.0[K
+remote:        Your bundle is complete![K
+remote:        Gems in the groups development and test were not installed.[K
+remote:        It was installed into ./vendor/bundle[K
+remote:        Bundle completed (7.76s)[K
+remote:        Cleaning up the bundler cache.[K
+remote:        Removing ransack (1.6.3)[K
+remote:        Removing polyamorous (1.1.0)[K
+remote: -----> Preparing app for Rails asset pipeline[K
+remote:        Running: rake assets:precompile[K
+remote:        I, [2015-03-08T05:18:05.189806 #558]  INFO -- : Writing /tmp/build_82184b9e6dfa281f7bcc4777a4517e71/public/assets/up_arrow-f1045f84b863f8fad748afc307b1d262.png[K
+remote:        I, [2015-03-08T05:18:10.722190 #558]  INFO -- : Writing /tmp/build_82184b9e6dfa281f7bcc4777a4517e71/public/assets/application-85c028cdc7a081995479f76821953500.js[K
+remote:        I, [2015-03-08T05:18:11.133150 #558]  INFO -- : Writing /tmp/build_82184b9e6dfa281f7bcc4777a4517e71/public/assets/locations-b21de5e46218de95b9de7e6938d15f09.js[K
+remote:        I, [2015-03-08T05:18:11.226596 #558]  INFO -- : Writing /tmp/build_82184b9e6dfa281f7bcc4777a4517e71/public/assets/application-2bcfd6f6f7920c141c335993305d3e3f.css[K
+remote:        I, [2015-03-08T05:18:11.233094 #558]  INFO -- : Writing /tmp/build_82184b9e6dfa281f7bcc4777a4517e71/public/assets/locations-2bcfd6f6f7920c141c335993305d3e3f.css[K
+remote:        Asset precompilation completed (11.24s)[K
+remote:        Cleaning assets[K
+remote:        Running: rake assets:clean[K
+remote: 
+remote: ###### WARNING:[K
+remote:        Include 'rails_12factor' gem to enable all platform features[K
+remote:        See https://devcenter.heroku.com/articles/rails-integration-gems for more inform

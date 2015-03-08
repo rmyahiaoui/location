@@ -1,6 +1,7 @@
+<%= link_to 'Back', :action => 'index'%>
 
-
-<%= form_for :locate, url: {action: "create"} do |f| %>
+<div class="form-actions">
+<%= form_for :locate, url: {action: "create"}, :class => "form-group" do |f| %>
   <p>
     <%= f.label :adress %><br>
     <%= f.text_field :adress %>
@@ -17,20 +18,19 @@
   </p>
 
    <p>
-    
-
+    <%= f.label :pay %><br>
+    <%= f.select(:pay) do %>
+      <% Country.all.each do |c| -%>
+        <%= content_tag(:option, c.first, value: c.first) %>
+      <% end %>
+    <% end %>
   </p>
-  <%= f.label :pay %><br>
-
-<%= f.select(:pay) do %>
-  <% Country.all.each do |c| -%>
-    <%= content_tag(:option, c.first, value: c.first) %>
-  <% end %>
-<% end %>
+  
   <p>
     <%= f.submit %>
   </p>
 <% end %>
+<div>
 
 
 

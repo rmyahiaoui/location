@@ -1,0 +1,243 @@
+.pretty th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.pretty th .asc {
+  background-image: url(/images/up_arrow.png);
+}
+
+.pretty th .desc {
+  background-image: url(/images/down_arrow.png);
+}
+body{
+
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+ 
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f0f0f0;
+}
+ 
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+}
+ 
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+ 
+p {
+    
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url("nav_background");
+}
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+ 
+    nav ul li a {
+        display: block;
+        margin-right: 20px;
+        width: 140px;
+        font-size: 14px;
+        line-height: 44px;
+        text-align: center;
+        text-decoration: none;
+        color: #777;
+    }
+ 
+        nav ul li a:hover {
+            color: #fff;
+        }
+ 
+        nav ul li.selected a {
+            color: #fff;
+        }
+ 
+        nav ul li.subscribe a {
+            margin-left: 22px;
+            padding-left: 33px;
+            text-align: left;
+            background: url("rss.png") left center no-repeat;
+        }
+        #intro {
+    margin-top: 66px;
+    padding: 44px;
+    background: #467612 url("intro_background.png") repeat-x;
+    background-size: 100%;
+    border-radius: 22px;
+}
+
+#intro {
+    ...
+    /* Background-size not implemented yet */
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+ 
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+}
+
+#intro h2, #intro p¬†{
+    width: 336px;
+}
+ 
+#intro h2 {
+    padding: 0 0 22px 0;
+    font-weight: normal
+    color: #fff;
+}
+ 
+#intro p {
+    padding: 0;
+    color: #d9f499;
+}
+
+#intro {
+  
+    background: #467612 url("intro_background.png") top left (287px 100%) repeat-x,
+            url("intro_flower.png") top right (653px 100%) no-repeat;
+  
+}
+
+/* Makeshift CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+ 
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f0f0f0;
+}
+ 
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+}
+ 
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+ 
+p {
+   
+}
+
+#content {
+    display: table;
+}
+ 
+    #mainContent {
+        display: table-cell;
+        width: 100%;
+        padding-right: 22px;
+    }
+ 
+    aside {
+        display: table-cell;
+        width: 300px;
+    }
+
+
+caption {
+font-family:sans-serif;
+}
+.bs-docs-nav {
+    margin-bottom: 0px;
+    background-color: #FFF;
+    border-bottom: 0px none;
+}
+.navbar-static-top {
+    border-radius: 0px;
+}
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0px 0px 1px;
+}
+.navbar {
+    border-radius: 4px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary {
+
+}
+* {
+    box-sizing: border-box;
+}
+.bs-docs-header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 24px;
+    text-align: left;
+}
+.bs-docs-header {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.bs-docs-header, .bs-docs-masthead {
+    position: relative;
+    padding: 30px 15px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-repeat: repeat-x;
+    color: #CDBFE3;
+    background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
+    background-color: #6F5499;
+}
+* {
+    box-sizing: border-box;
+}
+#form_group_id{
+	margin-left: 53%;
+	margin-top: 10px;
+	position: absolute;
+
+}

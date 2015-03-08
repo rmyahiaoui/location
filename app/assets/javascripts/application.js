@@ -16,5 +16,6 @@
 //= require_tree .
 //= require underscore-min
 //= require gmaps/google
-//=	require jquery-2.1.3.min
+//= require jquery-2.1.3.min
+//= require bootstrap
 

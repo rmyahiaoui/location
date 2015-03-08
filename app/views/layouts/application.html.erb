@@ -3,7 +3,7 @@
 <head>
   <title>Location</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'locations', media: 'all', 'data-turbolinks-track' => true %>
+
   <%= 
   javascript_include_tag 'application', 'data-turbolinks-track' => true
    %>
@@ -15,8 +15,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header class="navbar navbar-static-top bs-docs-nav">
+    <div class = "bs-docs-header">
+        <h1 class = 'text-center'>Application Localisation</h1>
+      </div>
+    </header>
+    
 
-<%= yield %>
+<div id="content">
+    <div id="mainContent">
+        <section>
+            <%= yield %>
+        </section>
+        
+    </div>
+    <aside>
+        <!-- Sidebar -->
+    </aside>
+</div>
+
+    <footer>
+        <!-- Footer -->
+    </footer>
+
+
+
+
 
 </body>
 </html>
